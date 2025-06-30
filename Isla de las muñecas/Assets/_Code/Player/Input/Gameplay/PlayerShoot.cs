@@ -12,6 +12,7 @@ public class PlayerShoot : MonoBehaviour
     private void OnDestroy()
     {
         _gameInputActions.Player.Shoot.performed -= ShootGun;
+        _gameInputActions.Player.Reload.performed -= ReloadGun;
     }
     private void Start()
     {
@@ -21,9 +22,44 @@ public class PlayerShoot : MonoBehaviour
     {
         _gameInputActions = _inputActionsHolder._GameInputActions;
         _gameInputActions.Player.Shoot.performed += ShootGun;
+        _gameInputActions.Player.Reload.performed += ReloadGun;
     }
     public void ShootGun(InputAction.CallbackContext ctx)
     {
         Gun.Shoot();
+    }
+    public void ReloadGun(InputAction.CallbackContext ctx)
+    {
+        StartCoroutine(Reload());
+    }
+    private IEnumerator Reload()
+    {
+        if (Gun._bulletBackUps > 0)
+        {
+            Gun._reloading = true;
+
+            if(Gun._bulletBackUps > 0 && Gun._bulletBackUps < Gun._magSize)
+            {
+                Gun._bulletRemaining = Gun._bulletRemaining + Gun._bulletBackUps;
+                Gun._bulletBackUps = 0;
+            }
+            else if(Gun._bulletBackUps ==  Gun._magSize || Gun._bulletBackUps > Gun._magSize)
+            {
+                if(Gun._bulletRemaining == 0)
+                {
+                    Gun._bulletRemaining = Gun._bulletRemaining + Gun._magSize;
+                    Gun._bulletBackUps = Gun._bulletBackUps - Gun._magSize;
+                }
+                if(Gun._bulletRemaining > 0)
+                {
+                    float reloadBullets;
+                    reloadBullets = Gun._magSize - Gun._bulletRemaining;
+                    Gun._bulletRemaining = Gun._bulletRemaining + reloadBullets;
+                    Gun._bulletBackUps = Gun._bulletBackUps - reloadBullets;
+                }
+            }
+            yield return new WaitForSeconds(Gun._reloadTime);
+        }
+        Gun._reloading = false;
     }
 }

@@ -11,22 +11,37 @@ public class Gun : MonoBehaviour
     [SerializeField] private float _shootDelay = 0.5f;
     [SerializeField] private LayerMask _layerMask;
 
+    [Header ("GunStats")]
+    [SerializeField] public static float _bulletRemaining;
+    public static float _magSize;
+    public static float _bulletBackUps;
+    public static float _reloadTime = 1f;
+    [SerializeField] public static bool _reloading;
+
+
     private float _lastShootTime;
     // Start is called before the first frame update
     void Start()
     {
-        
+        _magSize = 12f;
+        _bulletRemaining = 0;
+        _reloading = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(_bulletRemaining > _magSize)
+        {
+            _bulletBackUps = _bulletRemaining - _magSize;
+            _bulletRemaining = _magSize;
+        }
     }
     public void Shoot()
     {
-        if (_lastShootTime + _shootDelay < Time.time)
+        if (_lastShootTime + _shootDelay < Time.time && _bulletRemaining > 0 && _reloading == false)
         {
+            _bulletRemaining--;
             _shootParticle.Play();
             Vector3 direction = GetDirection();
 

@@ -46,7 +46,13 @@ public class PlayerMovement : MonoBehaviour
         Vector3 moveDirection = (right * _inputVector.x + forward * _inputVector.y) * _moveSpeed;
         moveDirection.y = _gravity;
         _characterController.Move(moveDirection * Time.deltaTime);
-
-
+    }
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Bullets"))
+        {
+            Gun._bulletBackUps = Gun._bulletBackUps + 5;
+            other.gameObject.SetActive(false);
+        }
     }
 }
