@@ -30,6 +30,7 @@ public class Enemy : MonoBehaviour, IDamageable
     public void Update()
     {
         stateMachine.Update();
+        Debug.Log(Health);
     }
     public void EnteringWanderingState()
     {
@@ -62,6 +63,7 @@ public class Enemy : MonoBehaviour, IDamageable
         {
             _enemyCollider.enabled = false;
             Death = true;
+            gameObject.SetActive(false);
         }
     }
     private Vector3 GetRandomPointInCircle()

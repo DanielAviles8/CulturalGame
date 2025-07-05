@@ -8,6 +8,8 @@ public class PlayerShoot : MonoBehaviour
     [SerializeField] private InputActionsHolder _inputActionsHolder;
     private GameInputActions _gameInputActions;
 
+    [SerializeField] private GameObject Weapon;
+
     [SerializeField] Gun Gun;
     private void OnDestroy()
     {
@@ -38,28 +40,31 @@ public class PlayerShoot : MonoBehaviour
         {
             Gun._reloading = true;
 
-            if(Gun._bulletBackUps > 0 && Gun._bulletBackUps < Gun._magSize)
+
+            if (Gun._bulletBackUps > 0 && Gun._bulletBackUps < Gun._magSize)
             {
-                Gun._bulletRemaining = Gun._bulletRemaining + Gun._bulletBackUps;
+                Gun._bulletRemaining += Gun._bulletBackUps;
                 Gun._bulletBackUps = 0;
             }
-            else if(Gun._bulletBackUps ==  Gun._magSize || Gun._bulletBackUps > Gun._magSize)
+            else if (Gun._bulletBackUps == Gun._magSize || Gun._bulletBackUps > Gun._magSize)
             {
-                if(Gun._bulletRemaining == 0)
+                if (Gun._bulletRemaining == 0)
                 {
-                    Gun._bulletRemaining = Gun._bulletRemaining + Gun._magSize;
-                    Gun._bulletBackUps = Gun._bulletBackUps - Gun._magSize;
+                    Gun._bulletRemaining += Gun._magSize;
+                    Gun._bulletBackUps -= Gun._magSize;
                 }
-                if(Gun._bulletRemaining > 0)
+                else if (Gun._bulletRemaining > 0)
                 {
-                    float reloadBullets;
-                    reloadBullets = Gun._magSize - Gun._bulletRemaining;
-                    Gun._bulletRemaining = Gun._bulletRemaining + reloadBullets;
-                    Gun._bulletBackUps = Gun._bulletBackUps - reloadBullets;
+                    float reloadBullets = Gun._magSize - Gun._bulletRemaining;
+                    Gun._bulletRemaining += reloadBullets;
+                    Gun._bulletBackUps -= reloadBullets;
                 }
             }
+
             yield return new WaitForSeconds(Gun._reloadTime);
+
+            Gun._reloading = false;
+            
         }
-        Gun._reloading = false;
     }
 }
