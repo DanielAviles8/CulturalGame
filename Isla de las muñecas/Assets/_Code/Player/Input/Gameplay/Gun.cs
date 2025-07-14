@@ -16,17 +16,22 @@ public class Gun : MonoBehaviour
 
     [Header("GunStats")]
     [SerializeField] public static float _bulletRemaining;
+    [SerializeField] private float _bulletDamage = 35f;
     public static float _magSize;
     public static float _bulletBackUps;
-    public static float _reloadTime = 1.5f;
+    public static float _reloadTime = 2f;
     private float _maxValueHit = 100f;
     [SerializeField] public static bool _reloading;
+
+    [Header("Animation")]
+    [SerializeField] Animator _animator;
 
 
     private float _lastShootTime;
     // Start is called before the first frame update
     void Start()
     {
+        _animator = GetComponent<Animator>();
         _magSize = 12f;
         _bulletRemaining = 10;
         _reloading = false;
@@ -44,6 +49,11 @@ public class Gun : MonoBehaviour
             _bulletRemaining = _magSize;
         }
         _bulletText.text = _bulletRemaining.ToString();
+
+        if(_reloading)
+        {
+            _animator.SetBool("Reloading", true);
+        }
     }
     public void Shoot()
     {
@@ -51,17 +61,16 @@ public class Gun : MonoBehaviour
         {
             _bulletRemaining--;
             _shootParticle.Play();
+            _animator.SetBool("Shooting", true);
             Vector3 direction = GetDirection();
 
             Ray ray = new Ray(_bulletSpawnPoint.position/* + transform.parent.position*/, direction);
             if (Physics.Raycast(ray, out RaycastHit hit, _maxValueHit, _layerMask))
             {
-                Debug.Log(hit.collider.gameObject.name);
-
                 IDamageable damageable = hit.collider.GetComponent<IDamageable>();
                 if (damageable != null)
                 {
-                    damageable.DoDamage(35);
+                    damageable.DoDamage(_bulletDamage);
                 }
 
                 StartCoroutine(SpawnTrail(_bulletSpawnPoint, hit.point/* + _bulletSpawnPoint.position*/));
@@ -79,6 +88,8 @@ public class Gun : MonoBehaviour
                 _lastShootTime = Time.time;
             }
         }
+        //_animator.SetBool("Shooting", false);
+        
     }
     private Vector3 GetDirection()
     {
@@ -102,4 +113,14 @@ public class Gun : MonoBehaviour
         Destroy(trail.gameObject, trail.time);
         yield break;
     }
+    public void OnShootAnimationEnd()
+    {
+        _animator.SetBool("Shooting", false);
+    }
+
+    public void OnReloadAnimationEnd()
+    {
+        _animator.SetBool("Reloading", false);
+    }
+
 }

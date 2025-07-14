@@ -8,7 +8,6 @@ public class LightBehaviour : MonoBehaviour
     {
         if (other.CompareTag("Enemy"))
         {
-            Debug.Log("Enemigo iluminado");
             ChaseTrigger.Chase = true;
         }
     }

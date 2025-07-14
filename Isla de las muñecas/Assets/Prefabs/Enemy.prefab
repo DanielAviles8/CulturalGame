@@ -30,8 +30,8 @@ Transform:
   m_GameObject: {fileID: 1407028418086177948}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0.7071068, w: 0}
-  m_LocalPosition: {x: 12.12, y: 4.73, z: 5.07}
-  m_LocalScale: {x: 24, y: 6, z: 9}
+  m_LocalPosition: {x: 12.12, y: 9.1, z: 4.47}
+  m_LocalScale: {x: 24, y: 4.8056397, z: 24.325201}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2877557828300907080}
@@ -492,7 +492,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 18
+  m_VersionIndex: 33
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -699,7 +699,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.9999261, z: -0, w: -0.012164436}
   m_LocalPosition: {x: -2.03, y: -0.57000005, z: 6.66}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2877557828300907080}
@@ -774,7 +774,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 1
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
@@ -788,7 +788,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 0
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -796,8 +796,8 @@ NavMeshAgent:
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 1
+  m_Height: 2.5
+  m_BaseOffset: 3.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!114 &2953112509192208925
@@ -816,6 +816,9 @@ MonoBehaviour:
   RandomMovementRange: 5
   _agent: {fileID: 7155135578023096201}
   _player: {fileID: 0}
+  _distanceToCountExit: 0
+  _timeTillExit: 0
+  _exitTimer: 0
 --- !u!114 &5677769655271353372
 MonoBehaviour:
   m_ObjectHideFlags: 0

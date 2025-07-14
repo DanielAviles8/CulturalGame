@@ -39,6 +39,7 @@ public class PlayerShoot : MonoBehaviour
         if (Gun._bulletBackUps > 0)
         {
             Gun._reloading = true;
+            yield return new WaitForSeconds(Gun._reloadTime);
 
 
             if (Gun._bulletBackUps > 0 && Gun._bulletBackUps < Gun._magSize)
@@ -61,7 +62,6 @@ public class PlayerShoot : MonoBehaviour
                 }
             }
 
-            yield return new WaitForSeconds(Gun._reloadTime);
 
             Gun._reloading = false;
             

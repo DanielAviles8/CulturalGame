@@ -23,8 +23,17 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        Debug.Log(ChaseTrigger.Chase);
         _inputVector = _inputActions.Player.Movement.ReadValue<Vector2>();
         MovePlayer();
+        if(CameraController._isCrouched == true)
+        {
+            _moveSpeed = 3f;
+        }
+        else
+        {
+            _moveSpeed = 5f;
+        }
     }
 
     private void Prepare()

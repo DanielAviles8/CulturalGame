@@ -13,13 +13,30 @@ public class CameraController : MonoBehaviour
     [SerializeField] private float mouseSensitivity = 400f;
     [SerializeField] private float stickSensitivity = 600f;
     [SerializeField] private float verticalClamp = 90f;
+    [SerializeField] private Vector3 GameplayPos;
 
     private Vector2 _inputVector;
     private float xRotation = 0f;
 
+    [Header("Crouched")]
+    [SerializeField] public static bool _isCrouched = false;
+    [SerializeField] private float _lerpSpeed = 2f;
+    [SerializeField] Transform _crouchPosition;
+    private Vector3 _targetCameraPos;
+
+    private bool _cameraInitialized = false;
+
+    [SerializeField] Transform _deathPosition;
+    private void OnDestroy()
+    {
+        _gameInputActions.Player.Crouch.performed -= CrouchPlayer;
+    }
     void Start()
     {
         Prepare();
+
+        GameplayPos = playerCamera.position;
+        _targetCameraPos = GameplayPos;
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
@@ -30,11 +47,24 @@ public class CameraController : MonoBehaviour
     {
         _characterController = GetComponent<CharacterController>();
         _gameInputActions = _inputActionsHolder._GameInputActions;
+        _gameInputActions.Player.Crouch.performed += CrouchPlayer;
     }
     void Update()
     {
         _inputVector = _gameInputActions.Player.FacingTo.ReadValue<Vector2>();
         MoveCamera();
+
+        playerCamera.localPosition = Vector3.Lerp(playerCamera.localPosition, _targetCameraPos, _lerpSpeed * Time.deltaTime);
+        DeathAnimation();
+    }
+    void LateUpdate()
+    {
+        if (!_cameraInitialized)
+        {
+            GameplayPos = playerCamera.localPosition;
+            _targetCameraPos = GameplayPos;
+            _cameraInitialized = true;
+        }
     }
     private void MoveCamera()
     {
@@ -62,5 +92,22 @@ public class CameraController : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+    }
+    private void CrouchPlayer(InputAction.CallbackContext ctx)
+    {
+        _isCrouched = !_isCrouched;
+
+        if (_isCrouched)
+            _targetCameraPos = _crouchPosition.localPosition;
+        else
+            _targetCameraPos = GameplayPos;
+    }
+    private void DeathAnimation()
+    {
+        if(TakeDamage.Death == true)
+        {
+            _targetCameraPos = _deathPosition.localPosition;
+            playerCamera.transform.rotation = _deathPosition.transform.rotation;
+        }
     }
 }
