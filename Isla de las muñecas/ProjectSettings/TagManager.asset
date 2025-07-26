@@ -7,6 +7,7 @@ TagManager:
   - Bullets
   - Flashlight
   - Enemy
+  - Health
   layers:
   - Default
   - TransparentFX

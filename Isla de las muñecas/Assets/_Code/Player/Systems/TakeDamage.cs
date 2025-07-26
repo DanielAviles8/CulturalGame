@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class TakeDamage : MonoBehaviour, IDamageable
 {
+    [SerializeField] private InputActionsHolder _inputActionsHolder;
+    private GameInputActions _inputActions;
+
     [SerializeField] private float _health;
     [SerializeField] public static bool _invulnerable;
     [SerializeField] private float _timer;
@@ -14,8 +18,13 @@ public class TakeDamage : MonoBehaviour, IDamageable
     // Start is called before the first frame update
     void Start()
     {
+        Prepare();
         _invulnerable = false;
         Death = false;
+    }
+    private void OnDestroy()
+    {
+        _inputActions.Player.Heal.performed -= HealPlayer;
     }
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
@@ -27,6 +36,11 @@ public class TakeDamage : MonoBehaviour, IDamageable
                 damageable.DoDamage(_enemyDamage);
             }
         }
+    }
+    private void Prepare()
+    {
+        _inputActions = _inputActionsHolder._GameInputActions;
+        _inputActions.Player.Heal.performed += HealPlayer;
     }
     // Update is called once per frame
     void Update()
@@ -55,6 +69,15 @@ public class TakeDamage : MonoBehaviour, IDamageable
             }
             _invulnerable = true;
             _timer = 0;
+        }
+    }
+    public void HealPlayer(InputAction.CallbackContext ctx)
+    {
+        if (_health >= 66) return;
+        if(PlayerMovement._healtPots > 0)
+        {
+            _health = _health + 35;
+            PlayerMovement._healtPots--;
         }
     }
 }

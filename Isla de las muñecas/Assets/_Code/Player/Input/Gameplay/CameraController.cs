@@ -38,8 +38,6 @@ public class CameraController : MonoBehaviour
         GameplayPos = playerCamera.position;
         _targetCameraPos = GameplayPos;
 
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
         xRotation = 0f;
         playerCamera.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
     }
@@ -52,7 +50,13 @@ public class CameraController : MonoBehaviour
     void Update()
     {
         _inputVector = _gameInputActions.Player.FacingTo.ReadValue<Vector2>();
-        MoveCamera();
+
+        if (!Inventory._inventoryOn)
+        {
+            MoveCamera();
+            //Cursor.lockState = CursorLockMode.Locked;
+            //Cursor.visible = false;
+        }
 
         playerCamera.localPosition = Vector3.Lerp(playerCamera.localPosition, _targetCameraPos, _lerpSpeed * Time.deltaTime);
         DeathAnimation();

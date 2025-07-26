@@ -7,6 +7,8 @@ public class PlayerMovement : MonoBehaviour
     private GameInputActions _inputActions;
     private CharacterController _characterController;
 
+    public static float _healtPots;
+
     [Header("Movement Settings")]
     [SerializeField] private float _moveSpeed = 5f;
     private float _gravity = -9.81f;
@@ -23,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(ChaseTrigger.Chase);
+        Debug.Log(_healtPots);
         _inputVector = _inputActions.Player.Movement.ReadValue<Vector2>();
         MovePlayer();
         if(CameraController._isCrouched == true)
@@ -61,6 +63,11 @@ public class PlayerMovement : MonoBehaviour
         if (other.gameObject.CompareTag("Bullets"))
         {
             Gun._bulletBackUps = Gun._bulletBackUps + 5;
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Health"))
+        {
+            _healtPots = _healtPots + 1;
             other.gameObject.SetActive(false);
         }
     }
