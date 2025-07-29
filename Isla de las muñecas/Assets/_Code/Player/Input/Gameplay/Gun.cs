@@ -61,7 +61,8 @@ public class Gun : MonoBehaviour
         {
             _bulletRemaining--;
             _shootParticle.Play();
-            _animator.SetBool("Shooting", true);
+            _animator.CrossFade("ShootAnimation", 0f, 0, 0f);
+            //_animator.SetBool("Shooting", true);
             Vector3 direction = GetDirection();
 
             Ray ray = new Ray(_bulletSpawnPoint.position/* + transform.parent.position*/, direction);

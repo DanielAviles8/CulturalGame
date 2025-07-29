@@ -9,6 +9,7 @@ public class Inventory : MonoBehaviour
     private GameInputActions _inputActions;
 
     [SerializeField] private GameObject _inventoryPanel;
+    [SerializeField] private GameObject _gameplayPanel;
     [SerializeField] public static bool _inventoryOn;
     // Start is called before the first frame update
     void Start()
@@ -33,6 +34,7 @@ public class Inventory : MonoBehaviour
             _inputActions.Player.Shoot.Disable();
             _inputActions.Player.Reload.Disable();
             _inventoryPanel.SetActive(true);
+            _gameplayPanel.SetActive(false);
         }
         else
         {
@@ -40,6 +42,7 @@ public class Inventory : MonoBehaviour
             _inputActions.Player.Shoot.Enable();
             _inputActions.Player.Reload.Enable();
             _inventoryPanel.SetActive(false);
+            _gameplayPanel.SetActive(true);
         }
     }
 }

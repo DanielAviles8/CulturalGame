@@ -12,6 +12,8 @@ public class Flashlight : MonoBehaviour
     [SerializeField] private float _lightTimer;
     [SerializeField] private GameObject _light;
 
+    public static bool hasFlashlight;
+
     private void OnDestroy()
     {
         _gameInputActions.Player.Flashlight.performed -= ToggleFlashlight;
@@ -21,6 +23,7 @@ public class Flashlight : MonoBehaviour
         Prepare();
         _flashlightOn = false;
         _light.SetActive(false);
+        hasFlashlight = false;
     }
     private void Prepare()
     {

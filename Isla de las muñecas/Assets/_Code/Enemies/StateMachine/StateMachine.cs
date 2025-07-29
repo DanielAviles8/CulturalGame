@@ -41,6 +41,8 @@ public class StateMachine
         previousState?.OnExit();
         nextState?.OnEnter();
         current = nodes[state.GetType()];
+
+        Debug.Log("Estado actual " + nextState.GetType());
     }
 
     ITransition GetTransition()

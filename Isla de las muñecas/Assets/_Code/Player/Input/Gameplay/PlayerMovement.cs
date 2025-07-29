@@ -25,7 +25,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(_healtPots);
         _inputVector = _inputActions.Player.Movement.ReadValue<Vector2>();
         MovePlayer();
         if(CameraController._isCrouched == true)

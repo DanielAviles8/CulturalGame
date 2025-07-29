@@ -37,7 +37,7 @@ public class InteractNote : MonoBehaviour
         if(_interact )
         {
             Note.SetActive(true);
-            ShowNote();
+            notesSpawner.ShowNoteByIndex(noteIndex);
             UIInteractionBinding.SetActive(false);
         }
     }
@@ -51,15 +51,12 @@ public class InteractNote : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
+        Debug.Log("choque con un pacotilla");
         if (other.gameObject.CompareTag("Player"))
         {
             _interact = false;
             UIInteractionBinding.SetActive(false);
-            Note.SetActive(false);
+            notesSpawner.ClearNote();
         }
-    }
-    public void ShowNote()
-    {
-        notesSpawner.ShowNoteByIndex(noteIndex);
     }
 }

@@ -10,30 +10,27 @@ public class NotesSpawner : MonoBehaviour
     [TextArea]
     [SerializeField] private string[] noteTexts;
 
+    public TMP_Text tmp { get; set; }
+
     private GameObject[] spawnedNotes;
 
     void Start()
     {
         spawnedNotes = new GameObject[noteTexts.Length];
 
-        for (int i = 0; i < noteTexts.Length; i++)
-        {
-            GameObject newNote = Instantiate(notePrefab, notesParent);
-            TextMeshProUGUI tmp = newNote.GetComponentInChildren<TextMeshProUGUI>();
-            if (tmp != null)
-            {
-                tmp.text = noteTexts[i];
-            }
-            
-            newNote.SetActive(false); 
-            spawnedNotes[i] = newNote;
-        }
+        
+        GameObject newNote = Instantiate(notePrefab, notesParent);
+        tmp = newNote.GetComponentInChildren<TMP_Text>();
+                   
+        newNote.SetActive(false);
     }
     public void ShowNoteByIndex(int index)
     {
-        if (index >= 0 && index < spawnedNotes.Length)
-        {
-            spawnedNotes[index].SetActive(true);
-        }
+        tmp.gameObject.SetActive(true);
+        tmp.text = noteTexts[index];
+    }
+    public void ClearNote()
+    {
+        tmp.text = "";
     }
 }

@@ -15,13 +15,18 @@ public class Enemy : MonoBehaviour, IDamageable
 
     [SerializeField] private NavMeshAgent _agent;
     [SerializeField] private GameObject _player;
+    
+    [SerializeField] private Light _enemyEyes;
+    
+    [SerializeField] private float _crouchTimer;
+    [SerializeField] private float _chaseTimer;
 
-    private float _crouchTimer = 0;
-    private float _chaseTimer = 2;
-
-    [SerializeField] private float _distanceToCountExit = 3;
+    [SerializeField] private float _distanceToCountExit = 10;
     [SerializeField] private float _timeTillExit = 3;
     [SerializeField] private float _exitTimer = 0;
+
+    private bool isPlayerDetected;
+    private bool isPlayerSus;
 
     private bool _attack;
     private Collider _enemyCollider;
@@ -42,6 +47,7 @@ public class Enemy : MonoBehaviour, IDamageable
     {
         _targetPos = GetRandomPointInCircle();
         _agent.SetDestination(_targetPos);
+        _enemyEyes.color = Color.yellow;
     }
     public void UpdatingWanderingState()
     {
@@ -50,12 +56,20 @@ public class Enemy : MonoBehaviour, IDamageable
             _targetPos = GetRandomPointInCircle();
             _agent.SetDestination(_targetPos);
         }
+        if (ChaseTrigger.Chase == true)
+        {
+            isPlayerSus = true;
+        }
     }
     public void ExitingWanderingState()
     {
 
     }
-    public void EnteringChasingState()
+    public void EnteringSusState()
+    {
+
+    }
+    public void UpdatingSusState()
     {
         if (CameraController._isCrouched)
         {
@@ -63,13 +77,26 @@ public class Enemy : MonoBehaviour, IDamageable
             if (_crouchTimer > _chaseTimer)
             {
                 _agent.SetDestination(_player.transform.position);
+                _enemyEyes.color = Color.red;
+                isPlayerDetected = true;
             }
         }
         else
         {
             _agent.SetDestination(_player.transform.position);
+            _enemyEyes.color = Color.red;
             _crouchTimer = 0;
+            isPlayerDetected = true;
         }
+
+    }
+    public void ExitingSusState()
+    {
+        isPlayerSus = false;
+    }
+    public void EnteringChasingState()
+    {
+
     }
     public void UpdatingChasingState()
     {
@@ -78,22 +105,19 @@ public class Enemy : MonoBehaviour, IDamageable
             _agent.SetDestination(_player.transform.position);
         }
 
-        if (Vector2.Distance(_player.transform.position, _agent.transform.position) > _distanceToCountExit)
+        if(ChaseTrigger.Chase == false || Vector2.Distance(_player.transform.position, _agent.transform.position) > _distanceToCountExit)          
         {
             _exitTimer += Time.deltaTime;
             if (_exitTimer > _timeTillExit)
             {
-                ChaseTrigger.Chase = false;
+                isPlayerDetected = false;
             }
-        }
-        else
-        {
-            _exitTimer = 0;
         }
     }
     public void ExitingChasingState()
     {
-        ChaseTrigger.Chase = false;
+         _exitTimer = 0;
+        isPlayerDetected = false;
     }
     public void DoDamage(float damage)
     {
@@ -113,9 +137,11 @@ public class Enemy : MonoBehaviour, IDamageable
     {
         stateMachine = new StateMachine();
         var wanderingState = new WanderingState(this);
+        var susState = new SusState(this);
         var chasingState = new ChasingState(this);
-        stateMachine.AddTransition(wanderingState, chasingState, new FuncPredicate(() => ChaseTrigger.Chase == true));
-        //stateMachine.AddTransition(chasingState, wanderingState, new FuncPredicate(() => ChaseTrigger.Chase == false));
+        stateMachine.AddTransition(wanderingState, susState, new FuncPredicate(() => isPlayerSus == true));
+        stateMachine.AddTransition(susState, chasingState, new FuncPredicate(() => isPlayerDetected == true));
+        stateMachine.AddTransition(chasingState, wanderingState, new FuncPredicate(() => isPlayerDetected == false));
         stateMachine.SetState(wanderingState);
     }
 }

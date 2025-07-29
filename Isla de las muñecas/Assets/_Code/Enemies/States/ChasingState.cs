@@ -16,6 +16,6 @@ public class ChasingState : EnemyState
     }
     public override void OnExit()
     {
-        
+        Controller.ExitingChasingState();
     }
 }

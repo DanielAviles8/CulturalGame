@@ -10,6 +10,9 @@ public class PlayerShoot : MonoBehaviour
 
     [SerializeField] private GameObject Weapon;
 
+    public static bool hasGun;
+
+
     [SerializeField] Gun Gun;
     private void OnDestroy()
     {
@@ -19,6 +22,7 @@ public class PlayerShoot : MonoBehaviour
     private void Start()
     {
         Prepare();
+        hasGun = true;
     }
     private void Prepare()
     {
@@ -28,6 +32,7 @@ public class PlayerShoot : MonoBehaviour
     }
     public void ShootGun(InputAction.CallbackContext ctx)
     {
+        
         Gun.Shoot();
     }
     public void ReloadGun(InputAction.CallbackContext ctx)

@@ -45,7 +45,6 @@ public class TakeDamage : MonoBehaviour, IDamageable
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(_health + " salud jugador");
         if (_invulnerable)
         {
             _timer += Time.deltaTime;
