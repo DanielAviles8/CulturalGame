@@ -35,7 +35,7 @@ public class CameraController : MonoBehaviour
     {
         Prepare();
 
-        GameplayPos = playerCamera.position;
+        GameplayPos = new Vector3 (0, 0.5f, 0);
         _targetCameraPos = GameplayPos;
 
         xRotation = 0f;

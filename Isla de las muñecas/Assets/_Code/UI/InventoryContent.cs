@@ -16,7 +16,6 @@ public class InventoryContent : MonoBehaviour, IPointerEnterHandler, IPointerExi
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        Debug.Log("Mouse sobre: " + gameObject.name);
         _previewUI.ShowPreview(_largeSprite, _description);
     }
 
