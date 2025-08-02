@@ -23,7 +23,6 @@ public class Flashlight : MonoBehaviour
         Prepare();
         _flashlightOn = false;
         _light.SetActive(false);
-        hasFlashlight = true;
     }
     private void Prepare()
     {

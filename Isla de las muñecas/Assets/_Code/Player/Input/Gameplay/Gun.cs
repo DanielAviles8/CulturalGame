@@ -14,6 +14,8 @@ public class Gun : MonoBehaviour
     [SerializeField] private LayerMask _layerMask;
     [SerializeField] private TextMeshProUGUI _bulletText;
 
+    public static bool gunActivated;
+
     [Header("GunStats")]
     [SerializeField] public static float _bulletRemaining;
     [SerializeField] private float _bulletDamage = 35f;
@@ -35,7 +37,7 @@ public class Gun : MonoBehaviour
         _magSize = 12f;
         _bulletRemaining = 10;
         _reloading = false;
-
+        //gunActivated = false;
     }
 
     // Update is called once per frame
@@ -57,6 +59,7 @@ public class Gun : MonoBehaviour
     }
     public void Shoot()
     {
+        if (ActivateGun.gunActivated == false) return;
         if (_lastShootTime + _shootDelay < Time.time && _bulletRemaining > 0 && !_reloading)
         {
             _bulletRemaining--;

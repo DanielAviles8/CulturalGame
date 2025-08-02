@@ -15,6 +15,11 @@ public class InteractNote : MonoBehaviour
     public int noteIndex;
     public NotesSpawner notesSpawner;
 
+    [SerializeField] private float _speed;      
+    [SerializeField] private float _amplitude; 
+
+    private Vector3 _startPos;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +27,7 @@ public class InteractNote : MonoBehaviour
         UIInteractionBinding.SetActive(false);
         Note.SetActive(false);
         _interact = false;
+        _startPos = transform.position;
     }
     private void OnDestroy()
     {
@@ -31,6 +37,11 @@ public class InteractNote : MonoBehaviour
     {
         _gameInputActions = _inputActionsHolder._GameInputActions;
         _gameInputActions.Player.Interact.performed += InteractWithNote;
+    }
+    private void Update()
+    {
+        float offsetY = Mathf.Sin(Time.time * _speed) * _amplitude;
+        transform.position = _startPos + new Vector3(0f, offsetY, 0f);
     }
     private void InteractWithNote(InputAction.CallbackContext ctx)
     {
@@ -51,7 +62,6 @@ public class InteractNote : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
-        Debug.Log("choque con un pacotilla");
         if (other.gameObject.CompareTag("Player"))
         {
             _interact = false;

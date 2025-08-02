@@ -6,6 +6,12 @@ using TMPro;
 
 public class InventoryCount : MonoBehaviour
 {
+    public bool hasGun { get; set; }
+    public bool hasFlash { get; set; }
+    public bool hasBullet { get; set; }
+    public bool hasHealthPot { get; set; }
+    public bool hasKey { get; set; }
+
     [Header("Gun")]
     [SerializeField] private Image gun;
     [SerializeField] private Image bullet;
@@ -18,7 +24,6 @@ public class InventoryCount : MonoBehaviour
 
     [Header("KeyItems")]
     [SerializeField] private Image key;
-    [SerializeField] private Image key0;
 
     // Start is called before the first frame update
     void Start()
@@ -27,33 +32,48 @@ public class InventoryCount : MonoBehaviour
         bullet.enabled = false;
         flashlight.enabled = false;
         heal.enabled = false;
+        key.enabled = false;
+        bulletCount.enabled = false;
+        healCount.enabled = false;
     }
 
     // Update is called once per frame
     void Update()
     {
         ShowGun();
+        ShowFlashlight();
         ShowItems();
         ShowKeyItems();
     }
     private void ShowGun()
     {
-        if (PlayerShoot.hasGun) gun.enabled = true;
-        if(Gun._bulletBackUps >= 0)
+        if (ActivateGun.gunActivated)
         {
-            bullet.enabled = true;
             bulletCount.enabled = true;
-            bulletCount.text = Gun._bulletBackUps.ToString();
+            if (PlayerShoot.hasGun) gun.enabled = true;
+            if (Gun._bulletBackUps >= 0)
+            {
+                bullet.enabled = true;
+                bulletCount.enabled = true;
+                bulletCount.text = Gun._bulletBackUps.ToString();
+            }
+            else
+            {
+                bulletCount.enabled = false;
+            }
         }
-        else
+    }
+    private void ShowFlashlight()
+    {
+        if (hasFlash == true)
         {
-            bulletCount.enabled = false;
+            Flashlight.hasFlashlight = true;
+            flashlight.enabled = true;
         }
     }
     private void ShowItems()
     {
-        if(Flashlight.hasFlashlight) flashlight.enabled = true;
-        if(PlayerMovement._healtPots >= 0)
+        if(PlayerMovement._healtPots > 0)
         {
             heal.enabled = true;
             healCount.enabled = true;
@@ -66,6 +86,9 @@ public class InventoryCount : MonoBehaviour
     }
     private void ShowKeyItems()
     {
-
+        if (KeyTrigger.keyObtained)
+        {
+            key.enabled = true;
+        }
     }
 }

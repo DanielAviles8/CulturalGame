@@ -30,6 +30,9 @@ public class Enemy : MonoBehaviour, IDamageable
 
     private bool _attack;
     private Collider _enemyCollider;
+
+    [SerializeField] private Transform enemyVisual;
+    [SerializeField] private GameObject particles;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +40,7 @@ public class Enemy : MonoBehaviour, IDamageable
         _player = GameObject.FindGameObjectWithTag("Player");
         SetUpStateMachine();
         Death = false;
+        particles.SetActive(false);
     }
     // Update is called once per frame
     public void Update()
@@ -48,6 +52,7 @@ public class Enemy : MonoBehaviour, IDamageable
         _targetPos = GetRandomPointInCircle();
         _agent.SetDestination(_targetPos);
         _enemyEyes.color = Color.yellow;
+        particles.SetActive(false);
     }
     public void UpdatingWanderingState()
     {
@@ -96,16 +101,22 @@ public class Enemy : MonoBehaviour, IDamageable
     }
     public void EnteringChasingState()
     {
-
+            _agent.speed = _agent.speed +3f;
     }
     public void UpdatingChasingState()
     {
         if(_player != null)
         {
             _agent.SetDestination(_player.transform.position);
+            particles.SetActive(true);
         }
 
-        if(ChaseTrigger.Chase == false || Vector2.Distance(_player.transform.position, _agent.transform.position) > _distanceToCountExit)          
+        float rotationSpeed = 20f; 
+        float rotationAngle = 5f; 
+        float zRotation = Mathf.Sin(Time.time * rotationSpeed) * rotationAngle;
+        enemyVisual.localRotation = Quaternion.Euler(0f, 0f, zRotation);
+
+        if (ChaseTrigger.Chase == false || Vector2.Distance(_player.transform.position, _agent.transform.position) > _distanceToCountExit)          
         {
             _exitTimer += Time.deltaTime;
             if (_exitTimer > _timeTillExit)
