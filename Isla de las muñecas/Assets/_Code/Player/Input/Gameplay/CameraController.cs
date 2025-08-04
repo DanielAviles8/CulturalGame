@@ -1,3 +1,4 @@
+using FirstGearGames.SmoothCameraShaker;
 using Unity.VisualScripting.Dependencies.Sqlite;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -27,6 +28,8 @@ public class CameraController : MonoBehaviour
     private bool _cameraInitialized = false;
 
     [SerializeField] Transform _deathPosition;
+
+    
     private void OnDestroy()
     {
         _gameInputActions.Player.Crouch.performed -= CrouchPlayer;
@@ -50,6 +53,7 @@ public class CameraController : MonoBehaviour
     void Update()
     {
         _inputVector = _gameInputActions.Player.FacingTo.ReadValue<Vector2>();
+
 
         if (!Inventory._inventoryOn)
         {

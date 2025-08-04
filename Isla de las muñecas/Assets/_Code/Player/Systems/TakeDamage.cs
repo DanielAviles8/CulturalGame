@@ -2,16 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using TMPro;
 
 public class TakeDamage : MonoBehaviour, IDamageable
 {
     [SerializeField] private InputActionsHolder _inputActionsHolder;
     private GameInputActions _inputActions;
 
-    [SerializeField] private float _health;
+    public float _health = 100;
     [SerializeField] public static bool _invulnerable;
     [SerializeField] private float _timer;
     [SerializeField] public static bool Death;
+
+    [SerializeField] private TextMeshProUGUI _healthText;
 
     [Header("EnemyDamageStats")]
     [SerializeField] private float _enemyDamage = 35f;
@@ -55,6 +58,21 @@ public class TakeDamage : MonoBehaviour, IDamageable
                 _timer = 0f;
             }
         }
+
+        if (_health >= 66)
+        {
+            _healthText.text = "";
+        }
+        else if( _health == 65)
+        {
+            _healthText.text = "Advertencia";
+            _healthText.color = Color.yellow;
+        }
+        else if(_health == 30)
+        {
+            _healthText.text = "Peligro";
+            _healthText.color = Color.red;
+        }
     }
     public void DoDamage(float damage)
     {
@@ -73,7 +91,7 @@ public class TakeDamage : MonoBehaviour, IDamageable
     public void HealPlayer(InputAction.CallbackContext ctx)
     {
         if (_health >= 66) return;
-        if(PlayerMovement._healtPots > 0)
+        if (PlayerMovement._healtPots > 0)
         {
             _health = _health + 35;
             PlayerMovement._healtPots--;
