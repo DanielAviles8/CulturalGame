@@ -28,7 +28,7 @@ public class CameraController : MonoBehaviour
     private bool _cameraInitialized = false;
 
     [SerializeField] Transform _deathPosition;
-
+    [SerializeField] GameObject fence;
     
     private void OnDestroy()
     {
@@ -106,9 +106,15 @@ public class CameraController : MonoBehaviour
         _isCrouched = !_isCrouched;
 
         if (_isCrouched)
+        {
             _targetCameraPos = _crouchPosition.localPosition;
+            fence.SetActive(false);
+        }
         else
+        {
             _targetCameraPos = GameplayPos;
+            fence.SetActive(true);
+        }
     }
     private void DeathAnimation()
     {

@@ -1,0 +1,3317 @@
+fileFormatVersion: 2
+guid: db73c28bd9194164fbcb7f7f5603d6ee
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6654
+        width: 1491
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f7b3405ff15124f800edf53c771e92
+      internalID: -1865591016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 6647
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58b5d1616ce4f742aea8d79e5f6cb3b
+      internalID: 847248475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_2
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 6632
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f503e6c6ce8c07c45aa74b70e7d0a8bd
+      internalID: 689806560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_3
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 6650
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6adef81e8c00b544492d2b72a4c022e0
+      internalID: 1487711480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_4
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 6650
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec75e3a4ba7b54b40bd60acc84e208dd
+      internalID: -1193121347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_5
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 6644
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919c13dcbdf181c4b956dca69ef33d54
+      internalID: -1228376048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_6
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 6632
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e6a7c93130ab248bad8c2c1ca99761
+      internalID: -293337677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_7
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 6650
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fe3672008cc9542b8a85c172caa10e
+      internalID: -1617069118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_8
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 6650
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26db0e14f1fe8fb489b183dae59cde37
+      internalID: -1842106693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_9
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 6625
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107aceceffa5c8245aa19e85e77c7cb2
+      internalID: 228599645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_10
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 6632
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e933d5644cc29946a24a6df328d88d9
+      internalID: 1794403235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_11
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 6625
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29e285b82a932f4496d3b63361be733
+      internalID: -1162207693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_12
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 6632
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ce63f9ab2a29144805a6db762206f4
+      internalID: -1466761605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_13
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 6604
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce77783740d881344a365ed8c2088563
+      internalID: -2097854688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_14
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 6600
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96625d2abdbad6a4ab77305aa981debd
+      internalID: -1472069370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_15
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 6604
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7461dd031fd3e1643971090f70de24fe
+      internalID: -1897254342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_16
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 6600
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d019d81238aee23488d576ff2280ee60
+      internalID: -1231927296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5841
+        width: 1491
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f42310d8a350e40961b9bec192d644
+      internalID: -1879259083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_18
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 5834
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b905ca65aa69a84d89bf5fee7d74aa4
+      internalID: 1910255828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_19
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 5820
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c64339dcb40a143a45473e8f4346e2
+      internalID: -1441721093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_20
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 5839
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b86c377a5e10be4f9d344be50dc36af
+      internalID: 1628636704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_21
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 5838
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8260ee2372f13ba41863b6cc9e2653d5
+      internalID: -202838509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_22
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 5834
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94484fe1cad63574ca29f87a5f9da35d
+      internalID: -1525178976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_23
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 5820
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185573d52dcd4a8459d8c4d860197f4a
+      internalID: 755975816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_24
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 5838
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36683573e37447e42916bf7be9a036da
+      internalID: 1640464661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_25
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 5838
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1de5951bf61848428732bf71eca052d
+      internalID: -437464588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_26
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 5813
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653b6a799eb613b41a206c92e25f2b79
+      internalID: 906497356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_27
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 5820
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58453bb3d5e47542a79321446190f3c
+      internalID: 296302978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_28
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 5812
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809b315540a56e7469bc541923534d99
+      internalID: 1113282256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_29
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 5820
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de320cde0bdf4d34aa5d6daf0af84ecb
+      internalID: 576685219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_30
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 5791
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c617d73d6ceab649865e9a8d2b7c27f
+      internalID: 219276145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_31
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 5787
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0b1b336dc733a4e999470683cec564
+      internalID: -1901903717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_32
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 5791
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb54f260ceb09c42a3bf915a17102b0
+      internalID: -1383778649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_33
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 5787
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8211b93845851b4e8999f6bb14a037f
+      internalID: -2113524330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5014
+        width: 1491
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8dfa80249889a4d936952a6c9afa2c
+      internalID: -1871308493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_35
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 5007
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4beeb38678a13a241a9a6840fa3825bd
+      internalID: 1156396929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_36
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 4993
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92be863313e82541995bc3ace761518
+      internalID: -955361386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_37
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 5011
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fe92fa7de701a4e8ab1543fcb7a274
+      internalID: -1344946085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_38
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 5011
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdab5e51ac2b1414a8f1174e598cf161
+      internalID: 299890198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_39
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 5005
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3825cd1c30dbfe44b6499a68f613b18
+      internalID: -1778615693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_40
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 4993
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba47b02dfede6542920e02a5e1f36f6
+      internalID: -2119488497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_41
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 5011
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06daed38f1f2c449b6dca8cbd4fd905
+      internalID: -158417324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_42
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 5011
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1092fa793ca04649a1a876c1547642d
+      internalID: 1691449994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_43
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 4985
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d4d6ea88c346840b20cafc8a0385fe
+      internalID: 2017316737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_44
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 4993
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d56cc6194378347b0770f86da4bcce
+      internalID: -529837041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_45
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 4985
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80c9782dd887244e8a9b92534065767
+      internalID: 781382010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_46
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 4993
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd90930b017b4b94580d385049c42ec0
+      internalID: 1445699610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_47
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 4964
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41d2d4e51e442d4d9dad01fd65cca79
+      internalID: -478945857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_48
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 4960
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ae3d54d1f64d84e92fcaf0d3137feb
+      internalID: 1010819877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_49
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 4964
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b4492618cdf2e4f91b9c6422462ea8
+      internalID: 1752583011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_50
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 4960
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b92b316a3ca293449145f70abc5cdec
+      internalID: -1584103634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4202
+        width: 1491
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be47ac38112747d40b0e737210115078
+      internalID: -1159277089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_52
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 4194
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a453cfb21e63b42989d9b9e1e37180
+      internalID: -1736361667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_53
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 4180
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f5748374031c246876b458bed3f536
+      internalID: -741843198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_54
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 4199
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee55717303bc12d4baeb0b06fbf608a2
+      internalID: 1403496382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_55
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 4198
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da12baa98c812164a926f2600da31652
+      internalID: -815845381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_56
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 4194
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d218dadb7ddc28459ec79f673688568
+      internalID: -238804478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_57
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 4180
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468e53c2a08ec784f8ffbe5f09dbf9bb
+      internalID: -1757226395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_58
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 4198
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1c779a09257b34d9d38c0b8cd8d9a7
+      internalID: -483856298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_59
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 4198
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491d4b306e4b66c4d918d768defbf3ca
+      internalID: -1424139178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_60
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 4173
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46a1c670f1afd24ea33dae66962a29e
+      internalID: 1860622831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_61
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 4180
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9169eb09caa711468484a80136509a6
+      internalID: 899007183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_62
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 4173
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4453c5c1c1f78640bbf1ecbd96bfa60
+      internalID: -164822730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_63
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 4180
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffea286f333d751409f2b2fccd09cadb
+      internalID: -1993864116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_64
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 4151
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec40660b87d02c48b726d56af7c5b24
+      internalID: -1592602268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_65
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 4148
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816095f37171f1545930e5c407d9c91f
+      internalID: -1717660530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_66
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 4151
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8d286590d900f4fad1ac5a38642212
+      internalID: -590060493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_67
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 4148
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7664454ac352d042854707329eda705
+      internalID: 695839075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3375
+        width: 1491
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e1f2bbe0f5d1d409197b22a5c4070a
+      internalID: 2071081244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_69
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 3367
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21eddd0179d4cf4aaf98253a99ab36c
+      internalID: 776538982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_70
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 3353
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f06ee9fe4377f40acb8292924d4a5b
+      internalID: -964550340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_71
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 3371
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4f93e46bea19a45b08357d68c2ba68
+      internalID: -2134184408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_72
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 3371
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbe98561caad024eb79e38187b5fabb
+      internalID: 1150577688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_73
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 3367
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f4470d39e93664c95900e239930e85
+      internalID: 1046006080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_74
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 3353
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8793662539bc864aac46561605feef1
+      internalID: 831550402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_75
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 3371
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c8c61ab5347aa45abd3d7cea4187f9
+      internalID: -1251853872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_76
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 3371
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d970ef20dee43e4f947b09a388eff64
+      internalID: -314644503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_77
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 3346
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68dbccf428ca504383a1d587b4cfe46
+      internalID: -1478280853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_78
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 3353
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea8317cec36b3843935658232aa171d
+      internalID: 341905128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_79
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 3346
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa2fbfdff24c3a4ba0e3f2738fad647
+      internalID: 1452779029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_80
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 3353
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c5c661c34790a4aade2663dfa44102
+      internalID: -1282275582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_81
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 3324
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e77b1c1fd4de243bb7e3059fb74cf6
+      internalID: -1446572656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_82
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 3321
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4f6a2ad72d42d44bed224629fd5ff0
+      internalID: -2006810685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_83
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 3324
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de43555b5beaa04882f0f4b274b38d7
+      internalID: -638157764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_84
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 3321
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b7a59cac70aa24ca8f68d738f67938
+      internalID: 529701209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2548
+        width: 1491
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf5891009b51bc4cb2af1ecec01c169
+      internalID: -1285947813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_86
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2540
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e692b0fce306b2546a7504f93ea4fc75
+      internalID: 889654709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_87
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 2526
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c10d47d5feb0b4787730416d8dca3a
+      internalID: -1437517964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_88
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 2544
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8363d92acee0b754abf002da09201454
+      internalID: 903574806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_89
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 2544
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6832eea8731bf1b4cae6552c9e7aa43e
+      internalID: 1939336348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_90
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 2540
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440b9696e6126b64db9e0b7e131aa595
+      internalID: -429709678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_91
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 2526
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd2e153a04e891448297672b1529c03
+      internalID: -350583497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_92
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 2544
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cdd6a5de6d4da04a8bcaf9ea9e9477b
+      internalID: -80031924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_93
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 2544
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c796e0589f56a6b4891f476a853d2ffa
+      internalID: 2084960205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_94
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 2519
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eda630119db4a948ba32dec81272d33
+      internalID: 470910282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_95
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 2526
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99674c0e45b70740bc72183b5c6a7be
+      internalID: 1558299090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_96
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 2519
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e76768dbf4fc3343affddb24917b8ed
+      internalID: 1005184600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_97
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 2526
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ea669bb2d56fa43acf30280a486ab5
+      internalID: -920954858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_98
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 2497
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930ca0f24d7b38b408f7ac5da2586bd0
+      internalID: 834703219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_99
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 2494
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8800cd8ad4198184382e928e17ae4b3c
+      internalID: -120381045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_100
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 2497
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddfffa05b8eff3946bdef54a61f6aeec
+      internalID: 1993187610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_101
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 2494
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6e242245a64ef48a862a0b42b54ea3
+      internalID: 1299451342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1721
+        width: 1491
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03db9d63ec95bf44ab0f55f2a89a0ba1
+      internalID: 234904294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_103
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1713
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a57d6a868ce72449b0730b1353e698
+      internalID: 637014772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_104
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1699
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c24c177c5c07545a70c04ef48f5bfd
+      internalID: 184078771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_105
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1717
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ec46214f5380847abbec19768127e1
+      internalID: -1384592992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_106
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1717
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99680a8c94d8b3f439519274a4f98f93
+      internalID: -289929463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_107
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 1711
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fb95fb25ef94948a45d06e2032ef28
+      internalID: -1306149625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_108
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 1699
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e2e678f6eb7d74ab0ad00fe9f3206d
+      internalID: -227668905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_109
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1717
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7166c5ffcb7594eac84d0e3c7cd1ab
+      internalID: 1190521784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_110
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 1717
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59749076eb511d4cba7093476f6276e
+      internalID: 863169537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_111
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1692
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f9aa1e2b2c1df4695d45783fe3c11d
+      internalID: -945426291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_112
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 1699
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4738bcfbcef9d8e48a7aa465384729c1
+      internalID: -450445501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_113
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1692
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b048a27ab2fa049826db6dddf7b228
+      internalID: -949730145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_114
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1699
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331671e804dd7194e8df10c1b9d81def
+      internalID: 584507194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_115
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1670
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede138e9b172fe742b1baea45b21911e
+      internalID: -542566086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_116
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1667
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec8bde1ad041944ab262897b52df0f1
+      internalID: 2040608673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_117
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 1670
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca3eb64a75ffd04eb0c677faead5e44
+      internalID: 972772839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_118
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 1667
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3aa68c79979ac4782d3fe3fb8e8635
+      internalID: -2137622258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_119
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 876
+        width: 1491
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4f49d3b3d02f7439ad1d574f573914
+      internalID: 1559346764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_120
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 872
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b97ec5ac857284b999541fabb29599
+      internalID: -2081091504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_121
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 858
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2120281bda6ef4f902c31f51b736c8
+      internalID: 844594882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_122
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 869
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21e218f0fc1ca84294ae75f4789c034
+      internalID: -603857492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_123
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 858
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97c72f13cacb8c4194df814523516ef
+      internalID: -1094510552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_124
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 850
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d147200dbb906b949bea6271fbac84a6
+      internalID: -1394840648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_125
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 858
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6db815d162e57f4297789e6d9075103
+      internalID: 666762456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_126
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 850
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5b5fb9598602a47a79023f85877abb
+      internalID: 595001452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_127
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 858
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3148bf4ebe4208e48825bf769331b1c6
+      internalID: -883255251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_128
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 829
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d496d8d573b665c4c9c5bc6da9541b49
+      internalID: -213787128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_129
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 822
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d8def9dd31c0241b0c5238f15b715f
+      internalID: 1213867915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_130
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 829
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945cb291d49bc044d93582e832fe2aa1
+      internalID: 1681100642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_131
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 822
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e5474d49d54284cbede47c7db2c828
+      internalID: 121644731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49
+        width: 1491
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6727ee5b40b8bb0439dda7ed91e07cb9
+      internalID: -678840268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_133
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 43
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d4a1cd3ec34dc4d9a0a8d54c0455e7
+      internalID: -731235066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_134
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 31
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a304f9c9d9fa0ed4cb1dd5253ebf6a7e
+      internalID: 1386417776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_135
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 41
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e412b5aa7986964184fb7b24dcef7a2
+      internalID: 410473685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_136
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 31
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5bf9c3044869b43a6cab174f31385c
+      internalID: 163887786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_137
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b1af91e1edfb641825f4a76243ed1f
+      internalID: 1626018300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_138
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 31
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a656806bf1724514dbdde6ff6d2c4433
+      internalID: 871959490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_139
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 23
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1dac96239b8248478b47e85cf37d8f9
+      internalID: 2068994200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_140
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 31
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ae6d83c6068704f9f0bb6a0e60a651
+      internalID: 383364484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_141
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 2
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8e8ecd83ff52844bab929c3bb209b4
+      internalID: 1984747284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_142
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 0
+        width: 64
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1f658902253fd40829cc14c1076f69
+      internalID: -1345004154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_143
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 2
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132dcef7ab431f940874f81b9368b965
+      internalID: -1047512474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos_Videojuego_isla_de_las_munecas_144
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 0
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf64d998debe0b4db3af5af9b7d5e37
+      internalID: -1598150596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f9ce8197a25e0a14e92983a38be4ccfb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Iconos_Videojuego_isla_de_las_munecas_0: -1865591016
+      Iconos_Videojuego_isla_de_las_munecas_1: 847248475
+      Iconos_Videojuego_isla_de_las_munecas_10: 1794403235
+      Iconos_Videojuego_isla_de_las_munecas_100: 1993187610
+      Iconos_Videojuego_isla_de_las_munecas_101: 1299451342
+      Iconos_Videojuego_isla_de_las_munecas_102: 234904294
+      Iconos_Videojuego_isla_de_las_munecas_103: 637014772
+      Iconos_Videojuego_isla_de_las_munecas_104: 184078771
+      Iconos_Videojuego_isla_de_las_munecas_105: -1384592992
+      Iconos_Videojuego_isla_de_las_munecas_106: -289929463
+      Iconos_Videojuego_isla_de_las_munecas_107: -1306149625
+      Iconos_Videojuego_isla_de_las_munecas_108: -227668905
+      Iconos_Videojuego_isla_de_las_munecas_109: 1190521784
+      Iconos_Videojuego_isla_de_las_munecas_11: -1162207693
+      Iconos_Videojuego_isla_de_las_munecas_110: 863169537
+      Iconos_Videojuego_isla_de_las_munecas_111: -945426291
+      Iconos_Videojuego_isla_de_las_munecas_112: -450445501
+      Iconos_Videojuego_isla_de_las_munecas_113: -949730145
+      Iconos_Videojuego_isla_de_las_munecas_114: 584507194
+      Iconos_Videojuego_isla_de_las_munecas_115: -542566086
+      Iconos_Videojuego_isla_de_las_munecas_116: 2040608673
+      Iconos_Videojuego_isla_de_las_munecas_117: 972772839
+      Iconos_Videojuego_isla_de_las_munecas_118: -2137622258
+      Iconos_Videojuego_isla_de_las_munecas_119: 1559346764
+      Iconos_Videojuego_isla_de_las_munecas_12: -1466761605
+      Iconos_Videojuego_isla_de_las_munecas_120: -2081091504
+      Iconos_Videojuego_isla_de_las_munecas_121: 844594882
+      Iconos_Videojuego_isla_de_las_munecas_122: -603857492
+      Iconos_Videojuego_isla_de_las_munecas_123: -1094510552
+      Iconos_Videojuego_isla_de_las_munecas_124: -1394840648
+      Iconos_Videojuego_isla_de_las_munecas_125: 666762456
+      Iconos_Videojuego_isla_de_las_munecas_126: 595001452
+      Iconos_Videojuego_isla_de_las_munecas_127: -883255251
+      Iconos_Videojuego_isla_de_las_munecas_128: -213787128
+      Iconos_Videojuego_isla_de_las_munecas_129: 1213867915
+      Iconos_Videojuego_isla_de_las_munecas_13: -2097854688
+      Iconos_Videojuego_isla_de_las_munecas_130: 1681100642
+      Iconos_Videojuego_isla_de_las_munecas_131: 121644731
+      Iconos_Videojuego_isla_de_las_munecas_132: -678840268
+      Iconos_Videojuego_isla_de_las_munecas_133: -731235066
+      Iconos_Videojuego_isla_de_las_munecas_134: 1386417776
+      Iconos_Videojuego_isla_de_las_munecas_135: 410473685
+      Iconos_Videojuego_isla_de_las_munecas_136: 163887786
+      Iconos_Videojuego_isla_de_las_munecas_137: 1626018300
+      Iconos_Videojuego_isla_de_las_munecas_138: 871959490
+      Iconos_Videojuego_isla_de_las_munecas_139: 2068994200
+      Iconos_Videojuego_isla_de_las_munecas_14: -1472069370
+      Iconos_Videojuego_isla_de_las_munecas_140: 383364484
+      Iconos_Videojuego_isla_de_las_munecas_141: 1984747284
+      Iconos_Videojuego_isla_de_las_munecas_142: -1345004154
+      Iconos_Videojuego_isla_de_las_munecas_143: -1047512474
+      Iconos_Videojuego_isla_de_las_munecas_144: -1598150596
+      Iconos_Videojuego_isla_de_las_munecas_15: -1897254342
+      Iconos_Videojuego_isla_de_las_munecas_16: -1231927296
+      Iconos_Videojuego_isla_de_las_munecas_17: -1879259083
+      Iconos_Videojuego_isla_de_las_munecas_18: 1910255828
+      Iconos_Videojuego_isla_de_las_munecas_19: -1441721093
+      Iconos_Videojuego_isla_de_las_munecas_2: 689806560
+      Iconos_Videojuego_isla_de_las_munecas_20: 1628636704
+      Iconos_Videojuego_isla_de_las_munecas_21: -202838509
+      Iconos_Videojuego_isla_de_las_munecas_22: -1525178976
+      Iconos_Videojuego_isla_de_las_munecas_23: 755975816
+      Iconos_Videojuego_isla_de_las_munecas_24: 1640464661
+      Iconos_Videojuego_isla_de_las_munecas_25: -437464588
+      Iconos_Videojuego_isla_de_las_munecas_26: 906497356
+      Iconos_Videojuego_isla_de_las_munecas_27: 296302978
+      Iconos_Videojuego_isla_de_las_munecas_28: 1113282256
+      Iconos_Videojuego_isla_de_las_munecas_29: 576685219
+      Iconos_Videojuego_isla_de_las_munecas_3: 1487711480
+      Iconos_Videojuego_isla_de_las_munecas_30: 219276145
+      Iconos_Videojuego_isla_de_las_munecas_31: -1901903717
+      Iconos_Videojuego_isla_de_las_munecas_32: -1383778649
+      Iconos_Videojuego_isla_de_las_munecas_33: -2113524330
+      Iconos_Videojuego_isla_de_las_munecas_34: -1871308493
+      Iconos_Videojuego_isla_de_las_munecas_35: 1156396929
+      Iconos_Videojuego_isla_de_las_munecas_36: -955361386
+      Iconos_Videojuego_isla_de_las_munecas_37: -1344946085
+      Iconos_Videojuego_isla_de_las_munecas_38: 299890198
+      Iconos_Videojuego_isla_de_las_munecas_39: -1778615693
+      Iconos_Videojuego_isla_de_las_munecas_4: -1193121347
+      Iconos_Videojuego_isla_de_las_munecas_40: -2119488497
+      Iconos_Videojuego_isla_de_las_munecas_41: -158417324
+      Iconos_Videojuego_isla_de_las_munecas_42: 1691449994
+      Iconos_Videojuego_isla_de_las_munecas_43: 2017316737
+      Iconos_Videojuego_isla_de_las_munecas_44: -529837041
+      Iconos_Videojuego_isla_de_las_munecas_45: 781382010
+      Iconos_Videojuego_isla_de_las_munecas_46: 1445699610
+      Iconos_Videojuego_isla_de_las_munecas_47: -478945857
+      Iconos_Videojuego_isla_de_las_munecas_48: 1010819877
+      Iconos_Videojuego_isla_de_las_munecas_49: 1752583011
+      Iconos_Videojuego_isla_de_las_munecas_5: -1228376048
+      Iconos_Videojuego_isla_de_las_munecas_50: -1584103634
+      Iconos_Videojuego_isla_de_las_munecas_51: -1159277089
+      Iconos_Videojuego_isla_de_las_munecas_52: -1736361667
+      Iconos_Videojuego_isla_de_las_munecas_53: -741843198
+      Iconos_Videojuego_isla_de_las_munecas_54: 1403496382
+      Iconos_Videojuego_isla_de_las_munecas_55: -815845381
+      Iconos_Videojuego_isla_de_las_munecas_56: -238804478
+      Iconos_Videojuego_isla_de_las_munecas_57: -1757226395
+      Iconos_Videojuego_isla_de_las_munecas_58: -483856298
+      Iconos_Videojuego_isla_de_las_munecas_59: -1424139178
+      Iconos_Videojuego_isla_de_las_munecas_6: -293337677
+      Iconos_Videojuego_isla_de_las_munecas_60: 1860622831
+      Iconos_Videojuego_isla_de_las_munecas_61: 899007183
+      Iconos_Videojuego_isla_de_las_munecas_62: -164822730
+      Iconos_Videojuego_isla_de_las_munecas_63: -1993864116
+      Iconos_Videojuego_isla_de_las_munecas_64: -1592602268
+      Iconos_Videojuego_isla_de_las_munecas_65: -1717660530
+      Iconos_Videojuego_isla_de_las_munecas_66: -590060493
+      Iconos_Videojuego_isla_de_las_munecas_67: 695839075
+      Iconos_Videojuego_isla_de_las_munecas_68: 2071081244
+      Iconos_Videojuego_isla_de_las_munecas_69: 776538982
+      Iconos_Videojuego_isla_de_las_munecas_7: -1617069118
+      Iconos_Videojuego_isla_de_las_munecas_70: -964550340
+      Iconos_Videojuego_isla_de_las_munecas_71: -2134184408
+      Iconos_Videojuego_isla_de_las_munecas_72: 1150577688
+      Iconos_Videojuego_isla_de_las_munecas_73: 1046006080
+      Iconos_Videojuego_isla_de_las_munecas_74: 831550402
+      Iconos_Videojuego_isla_de_las_munecas_75: -1251853872
+      Iconos_Videojuego_isla_de_las_munecas_76: -314644503
+      Iconos_Videojuego_isla_de_las_munecas_77: -1478280853
+      Iconos_Videojuego_isla_de_las_munecas_78: 341905128
+      Iconos_Videojuego_isla_de_las_munecas_79: 1452779029
+      Iconos_Videojuego_isla_de_las_munecas_8: -1842106693
+      Iconos_Videojuego_isla_de_las_munecas_80: -1282275582
+      Iconos_Videojuego_isla_de_las_munecas_81: -1446572656
+      Iconos_Videojuego_isla_de_las_munecas_82: -2006810685
+      Iconos_Videojuego_isla_de_las_munecas_83: -638157764
+      Iconos_Videojuego_isla_de_las_munecas_84: 529701209
+      Iconos_Videojuego_isla_de_las_munecas_85: -1285947813
+      Iconos_Videojuego_isla_de_las_munecas_86: 889654709
+      Iconos_Videojuego_isla_de_las_munecas_87: -1437517964
+      Iconos_Videojuego_isla_de_las_munecas_88: 903574806
+      Iconos_Videojuego_isla_de_las_munecas_89: 1939336348
+      Iconos_Videojuego_isla_de_las_munecas_9: 228599645
+      Iconos_Videojuego_isla_de_las_munecas_90: -429709678
+      Iconos_Videojuego_isla_de_las_munecas_91: -350583497
+      Iconos_Videojuego_isla_de_las_munecas_92: -80031924
+      Iconos_Videojuego_isla_de_las_munecas_93: 2084960205
+      Iconos_Videojuego_isla_de_las_munecas_94: 470910282
+      Iconos_Videojuego_isla_de_las_munecas_95: 1558299090
+      Iconos_Videojuego_isla_de_las_munecas_96: 1005184600
+      Iconos_Videojuego_isla_de_las_munecas_97: -920954858
+      Iconos_Videojuego_isla_de_las_munecas_98: 834703219
+      Iconos_Videojuego_isla_de_las_munecas_99: -120381045
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
