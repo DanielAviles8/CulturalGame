@@ -818,9 +818,13 @@ MonoBehaviour:
   _agent: {fileID: 7155135578023096201}
   _player: {fileID: 0}
   _enemyEyes: {fileID: 4386468597381418879}
+  _crouchTimer: 0
+  _chaseTimer: 0
   _distanceToCountExit: 0
   _timeTillExit: 0
   _exitTimer: 0
+  enemyVisual: {fileID: 0}
+  particles: {fileID: 0}
 --- !u!114 &5677769655271353372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -906,7 +910,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 0, b: 0.14656258, a: 1}
-  m_Intensity: 70
+  m_Intensity: 100
   m_Range: 6
   m_SpotAngle: 65.09803
   m_InnerSpotAngle: 56.900116

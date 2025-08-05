@@ -5,6 +5,7 @@ using UnityEngine;
 public class KeyTrigger : MonoBehaviour
 {
     [SerializeField] private GameObject Key;
+    [SerializeField] private GameObject Door;
     [SerializeField] private float rotateVelocity = 10f;
     public static bool keyObtained;
     // Start is called before the first frame update
@@ -23,6 +24,7 @@ public class KeyTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             keyObtained = true;
+            Door.SetActive(false);
             Key.SetActive(false);
         }
     }

@@ -16,6 +16,7 @@ public class InventoryCount : MonoBehaviour
     [SerializeField] private Image gun;
     [SerializeField] private Image bullet;
     [SerializeField] private TextMeshProUGUI bulletCount;
+    [SerializeField] private Image reticle;
 
     [Header("Items")]
     [SerializeField] private Image flashlight;
@@ -35,6 +36,7 @@ public class InventoryCount : MonoBehaviour
         key.enabled = false;
         bulletCount.enabled = false;
         healCount.enabled = false;
+        reticle.enabled = false;
     }
 
     // Update is called once per frame
@@ -50,6 +52,7 @@ public class InventoryCount : MonoBehaviour
         if (ActivateGun.gunActivated)
         {
             bulletCount.enabled = true;
+            reticle.enabled = true;
             if (PlayerShoot.hasGun) gun.enabled = true;
             if (Gun._bulletBackUps >= 0)
             {

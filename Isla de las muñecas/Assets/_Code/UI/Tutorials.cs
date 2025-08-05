@@ -13,7 +13,11 @@ public class Tutorials : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        tutorial.enabled = true;
+        if (other.CompareTag("Player"))
+        {
+            Debug.Log("tutorial activado");
+            tutorial.enabled = true;
+        }
     }
     private void OnTriggerExit(Collider other)
     {
